@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL2-CS.Core", "src\SDL2-CS\SDL2-CS.Core.csproj", "{152C8E02-1935-4742-88D7-881C7BD1E5BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameInAvalonia.Controls", "src\MonoGameInAvalonia.Controls\MonoGameInAvalonia.Controls.csproj", "{287AAD65-3489-48D9-A708-DF1A7D8F6F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameInAvalonia", "src\MonoGameInAvalonia\MonoGameInAvalonia.csproj", "{D439208F-AAE9-4F93-A678-D3D859465800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{B92848E4-667D-4AEC-8925-DC22D51F7842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGame", "samples\SampleGame\SampleGame.csproj", "{E4FBCE3F-6D29-4F4A-A992-916A73F6002C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGame.Avalonia", "samples\SampleGame.Avalonia\SampleGame.Avalonia.csproj", "{FD12C7B0-D662-447B-888D-6628C1FD0425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{152C8E02-1935-4742-88D7-881C7BD1E5BA}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{152C8E02-1935-4742-88D7-881C7BD1E5BA}.Debug|Any CPU.Build.0 = Debug|x64
+		{152C8E02-1935-4742-88D7-881C7BD1E5BA}.Release|Any CPU.ActiveCfg = Release|x64
+		{152C8E02-1935-4742-88D7-881C7BD1E5BA}.Release|Any CPU.Build.0 = Release|x64
+		{287AAD65-3489-48D9-A708-DF1A7D8F6F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287AAD65-3489-48D9-A708-DF1A7D8F6F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287AAD65-3489-48D9-A708-DF1A7D8F6F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287AAD65-3489-48D9-A708-DF1A7D8F6F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D439208F-AAE9-4F93-A678-D3D859465800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D439208F-AAE9-4F93-A678-D3D859465800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D439208F-AAE9-4F93-A678-D3D859465800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D439208F-AAE9-4F93-A678-D3D859465800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FBCE3F-6D29-4F4A-A992-916A73F6002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FBCE3F-6D29-4F4A-A992-916A73F6002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FBCE3F-6D29-4F4A-A992-916A73F6002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FBCE3F-6D29-4F4A-A992-916A73F6002C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD12C7B0-D662-447B-888D-6628C1FD0425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD12C7B0-D662-447B-888D-6628C1FD0425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD12C7B0-D662-447B-888D-6628C1FD0425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD12C7B0-D662-447B-888D-6628C1FD0425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4FBCE3F-6D29-4F4A-A992-916A73F6002C} = {B92848E4-667D-4AEC-8925-DC22D51F7842}
+		{FD12C7B0-D662-447B-888D-6628C1FD0425} = {B92848E4-667D-4AEC-8925-DC22D51F7842}
+	EndGlobalSection
+EndGlobal
