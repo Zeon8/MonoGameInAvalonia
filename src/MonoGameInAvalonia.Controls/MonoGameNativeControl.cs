@@ -13,11 +13,11 @@ internal class MonoGameNativeControl : NativeControlHost
 
     protected override IPlatformHandle CreateNativeControlCore(IPlatformHandle parent)
     {
-        if (!SDL.GetWindowWMInfo(_game.Window.Handle, out SDL.SysWMinfo info))
-            throw new Exception($"Failed to retrive window manager information. Reason: {SDL.GetError()}");
+        if (!Sdl.GetWindowWMInfo(_game.Window.Handle, out Sdl.SysWMinfo info))
+            throw new Exception($"Failed to retrive window manager information. Reason: {Sdl.GetError()}");
 
         if (OperatingSystem.IsWindows())
-            return new PlatformHandle(info.Info.Win.Window, "HWND");
+            return new PlatformHandle(info.Info.Windows.Window, "HWND");
         else if (OperatingSystem.IsLinux())
             return new PlatformHandle(info.Info.X11.Window, "XID");
         else if (OperatingSystem.IsMacOS())
